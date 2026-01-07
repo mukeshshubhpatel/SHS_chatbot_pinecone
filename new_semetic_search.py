@@ -66,7 +66,7 @@ logging.basicConfig(
 
 class SemanticSearch:
     def __init__(self):
-        self.api_key = "pcsk_5Q3MCs_Asywku5gWesRHs5GedYGP3RSpQmQiTdjGNBD6EbhJfwjLJH2rgV6H6tssk4U2Mc"
+        self.api_key = "#######"
         self.index_name = "chatbot"
         self.model_name = "BAAI/bge-large-en-v1.5"  # Updated to 1024D model for consistency
         self.model = None
@@ -744,4 +744,5 @@ def main():
             traceback.print_exc()
 
 if __name__ == "__main__":
+
     main()
