@@ -1,0 +1,39 @@
+torch
+transformers
+accelerate
+sentence-transformers
+pinecone-client
+fastapi
+uvicorn
+logging
+PyPDF2
+huggingface_hub
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+pdf2image>=1.16.0
+pymupdf>=1.23.0
+python-docx>=1.1.0
+
+# Web Scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+html2text>=2020.1.16
+
+# Image Processing
+pytesseract>=0.3.10
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Embeddings & ML
+transformers>=4.35.0
+torch>=2.1.0
+sentence-transformers>=2.2.0
+
+# Vector Database
+pinecone-client>=3.0.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.65.0
