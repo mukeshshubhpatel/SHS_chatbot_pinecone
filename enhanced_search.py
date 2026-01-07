@@ -10,7 +10,7 @@ logging.basicConfig(
 
 class EnhancedSearch:
     def __init__(self):
-        self.api_key = "pcsk_5Q3MCs_Asywku5gWesRHs5GedYGP3RSpQmQiTdjGNBD6EbhJfwjLJH2rgV6H6tssk4U2Mc"
+        self.api_key = "#######"
         self.index_name = "chatbot"
         self.embedding_model_name = "BAAI/bge-large-en"
         self.llm_model_name = "Qwen/Qwen1.5-7B-Chat"
@@ -153,4 +153,5 @@ def main():
             print(f"Error: {e}")
 
 if __name__ == "__main__":
+
     main()
