@@ -10,10 +10,10 @@ logging.basicConfig(
 )
 
 # --- Config ---
-PINECONE_API_KEY = "pcsk_5Q3MCs_Asywku5gWesRHs5GedYGP3RSpQmQiTdjGNBD6EbhJfwjLJH2rgV6H6tssk4U2Mc"
+PINECONE_API_KEY = "######"
 INDEX_NAME = "chatbot"
 
-pc = Pinecone(api_key="pcsk_5Q3MCs_Asywku5gWesRHs5GedYGP3RSpQmQiTdjGNBD6EbhJfwjLJH2rgV6H6tssk4U2Mc")
+pc = Pinecone(api_key="#######")
 index = pc.Index("chatbot")
 
 # --- Init ---
@@ -59,3 +59,4 @@ def search_similar_docs(query, top_k=5):
     except Exception as e:
         logging.error(f"Error during search_similar_docs: {e}")
         raise
+
